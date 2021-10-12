@@ -4,13 +4,11 @@ const navMenu = document.getElementById("nav__menu"),
   navClose = document.getElementById("nav-close");
 
 /*===== MENU SHOW =====*/
-/* Validate if constant exists */
 navToggle.addEventListener("click", () => {
   navMenu.classList.add("show-menu");
 });
 
 /*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
 
 navClose.addEventListener("click", () => {
   navMenu.classList.remove("show-menu");
